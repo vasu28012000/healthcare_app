@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#27CBDD"
+    tools:context=".get_info">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="INFORMATION" />
+
+    <Button
+        android:id="@+id/addbutton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="ADD" />
+
+    <EditText
+        android:id="@+id/avail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/clinic"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:hint="AVAILABILITY"
+        android:textColor="#FAF7F7" />
+
+    <EditText
+        android:id="@+id/clinic"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:hint="CLINIC"
+        android:textColor="#FAF7F7" />
+
+    <EditText
+        android:id="@+id/contact"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginBottom="30dp"
+        android:hint="CONTACT"
+        android:textColor="#FAF7F7" />
+
+    <EditText
+        android:id="@+id/specialization"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/contact"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:hint="SPECIALIZATION"
+        android:textColor="#FAF7F7" />
+
+    <EditText
+        android:id="@+id/docname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/specialization"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="30dp"
+        android:hint="DOCTOR's NAME"
+        android:textColor="#FAF7F7" />
+
+
+</RelativeLayout>

@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0AC7E0"
+    tools:context=".pharmacy">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="WELCOME TO PRACTOPHARMACY!!!\n(ALWAYS BY MEDICINE PRESCRIBED BY A DOCTOR)"
+        android:textColor="#E6EFF0" />
+
+    <EditText
+        android:id="@+id/meds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:hint="MEDS" />
+
+    <EditText
+        android:id="@+id/quantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/meds"
+        android:layout_centerHorizontal="true"
+        android:hint="QUANTITY" />
+
+    <Button
+        android:id="@+id/order"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:text="ORDER" />
+ <TextView
+     android:layout_width="wrap_content"
+     android:layout_height="wrap_content"
+     android:visibility="gone"
+     android:text="OUR EXECUTIVE WILL CONTACT YOU SOON"
+     android:layout_above="@+id/order"
+     android:layout_centerHorizontal="true"
+     android:layout_marginBottom="35dp"
+     android:id="@+id/toast"
+     />
+</RelativeLayout>

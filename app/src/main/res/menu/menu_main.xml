@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item android:id="@+id/deleterecord"
+    android:title="DELETE RECORD"
+    />
+    <item android:id="@+id/addrecord"
+        android:title="ADD RECORD"
+        />
+    <item android:id="@+id/upgrade"
+        android:title="UPGRADE RECORD"
+        />
+    <item android:id="@+id/medic"
+        android:title="ADD MEDICINE"
+        />
+</menu>
